@@ -1,0 +1,16 @@
+created: 20261031231511712
+modified: 20261031231656796
+tags: 
+title: Dashboard
+type: text/vnd.tiddlywiki
+
+All the things
+
+
+<$linkcatcher actions="<$action-sendmessage $message='tm-modal' $param=<<navigateTo>>/>">
+<div class="modal-links">
+<div class="tc-table-of-contents">
+<<toc-selective-expandable "Dashboard">>
+</div>
+</div>
+</$linkcatcher>
