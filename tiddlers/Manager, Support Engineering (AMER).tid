@@ -1,12 +1,19 @@
 created: 20261101010130169
-modified: 20261101023115968
-tags: 
+modified: 20261101172739627
+tags: Roles
 title: Manager, Support Engineering (AMER)
 type: text/vnd.tiddlywiki
 
 [[Open This|Manager, Support Engineering (AMER)]]
 
 ---
+
+<div class="custom-warning">
+  <span class="alert-icon"></span>
+  <strong>Applied</strong><br><br>
+November 1st, 2026
+
+</div>
 
 https://job-boards.greenhouse.io/gitlab/jobs/8877510002
 
@@ -17,3 +24,11 @@ $115,200 - $194,400 USD
 https://handbook.gitlab.com/handbook/support/managers/manager-responsibilities/
 
 https://handbook.gitlab.com/handbook/support/training/#support-manager-onboarding-pathway
+
+<$linkcatcher actions="<$action-sendmessage $message='tm-modal' $param=<<navigateTo>>/>">
+<div class="modal-links">
+<div class="tc-table-of-contents">
+<<toc-selective-expandable "Manager, Support Engineering (AMER)">>
+</div>
+</div>
+</$linkcatcher>

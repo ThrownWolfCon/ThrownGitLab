@@ -1,5 +1,5 @@
 created: 20261101030129699
-modified: 20261101030342307
+modified: 20261101174427745
 tags: [[Manager, Support Engineering (AMER)]]
 title: MSE: What you’ll bring
 type: text/vnd.tiddlywiki
@@ -8,12 +8,10 @@ type: text/vnd.tiddlywiki
 
 ---
 
-Ability to lead technical, customer-facing teams and support the growth of Support Engineers at different levels through feedback, mentoring, and growth opportunities.
-
-Ability to create and implement processes and procedures that improve team efficiency.
-
-Ability to provide technical customer support and manage the full support lifecycle, from understanding customer needs and initial engagement through resolution, in collaboration with development.
-
-Analytical and problem-solving skills to troubleshoot complex technical issues and the ability to grow your team’s problem-solving skills.
-
-Understanding of Linux System Administration and web application development concepts (with MVC frameworks such as Ruby on Rails, Python, Django, PHP, or Laravel).
+<$linkcatcher actions="<$action-sendmessage $message='tm-modal' $param=<<navigateTo>>/>">
+<div class="modal-links">
+<div class="tc-table-of-contents">
+<<toc-selective-expandable "MSE: What you’ll bring">>
+</div>
+</div>
+</$linkcatcher>

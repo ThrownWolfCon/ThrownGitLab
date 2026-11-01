@@ -1,0 +1,17 @@
+created: 20261101170429585
+modified: 20261101170458669
+tags: Dashboard
+title: Roles
+type: text/vnd.tiddlywiki
+
+[[Open This|Roles]]
+
+---
+
+<$linkcatcher actions="<$action-sendmessage $message='tm-modal' $param=<<navigateTo>>/>">
+<div class="modal-links">
+<div class="tc-table-of-contents">
+<<toc-selective-expandable "Roles">>
+</div>
+</div>
+</$linkcatcher>

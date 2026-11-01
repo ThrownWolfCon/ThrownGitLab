@@ -1,0 +1,50 @@
+created: 20261101175129727
+modified: 20261101181607891
+tags: [[MVC Frameworks]]
+title: Django
+type: text/vnd.tiddlywiki
+
+[[Open This|Django]]
+
+---
+
+https://www.djangoproject.com/download/
+
+* Apps
+** Models
+** Views
+** URLs
+
+Views
+
+* Functions that are in charge of processing a user's request
+* Function-based views
+* Class-based views
+
+Templating Language
+
+ ORM
+
+Admin Panel
+
+CRUD
+
+Static Files
+
+Authentication
+
+Django Commands
+
+* startproject
+* startapp
+* makemigrations
+** migrate
+* createsuperuser
+
+Signals
+
+Production Database
+
+Django REST Framework
+
+Deployment
