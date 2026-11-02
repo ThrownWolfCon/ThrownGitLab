@@ -1,0 +1,245 @@
+/* ===== COMIC POP BASE COLORS ===== */
+comic-void:     #0a0a12
+comic-deep:     #12121e
+comic-panel:    #1c1c2a
+comic-ui:       #262638
+comic-ui-2:     #303048
+comic-ui-3:     #3a3a58
+
+comic-text:     #f8f0ff
+comic-text-2:   #d0c8e8
+comic-text-3:   #a098c0
+comic-muted:    #706890
+
+/* Primary comic pops */
+comic-cyan:     #00f0ff
+comic-pink:     #ff2d95
+comic-green:    #39ff14
+comic-yellow:   #ffe600
+comic-orange:   #ff6b00
+comic-purple:   #b14eff
+comic-blue:     #3d9bff
+comic-red:      #ff3355
+comic-lime:     #c6ff00
+comic-magenta:  #ff00cc
+
+/* Slightly darker variants for borders / hover */
+comic-cyan-2:   #00c8d4
+comic-pink-2:   #d4007a
+comic-green-2:  #2acc10
+comic-yellow-2: #d4c000
+comic-orange-2: #d45500
+comic-purple-2: #8e3acc
+comic-blue-2:   #2a7acc
+comic-red-2:    #d42040
+
+/* ===== FLEXOKI-STYLE ALIASES (kept for compatibility) ===== */
+flexoki-red-600:    #d42040
+flexoki-red-400:    #ff3355
+flexoki-orange-600: #d45500
+flexoki-orange-400: #ff6b00
+flexoki-yellow-900: #3a3500
+flexoki-yellow-600: #d4c000
+flexoki-yellow-400: #ffe600
+flexoki-yellow-100: #fff8a0
+flexoki-green-600:  #2acc10
+flexoki-green-400:  #39ff14
+flexoki-cyan-950:   #001a1c
+flexoki-cyan-600:   #00c8d4
+flexoki-cyan-400:   #00f0ff
+flexoki-cyan-050:   #e0ffff
+flexoki-blue-600:   #2a7acc
+flexoki-blue-400:   #3d9bff
+flexoki-purple-600: #8e3acc
+flexoki-purple-400: #b14eff
+flexoki-magenta-600:#d4007a
+flexoki-magenta-400:#ff2d95
+
+flexoki-bg:   <<colour comic-void>>
+flexoki-tx-2: <<colour comic-text-2>>
+flexoki-tx-3: <<colour comic-text-3>>
+flexoki-ui-3: <<colour comic-ui-3>>
+flexoki-ui-2: <<colour comic-ui-2>>
+flexoki-ui:   <<colour comic-ui>>
+flexoki-bg-2: <<colour comic-deep>>
+flexoki-tx:   <<colour comic-text>>
+flexoki-re:   <<colour comic-red>>
+flexoki-or:   <<colour comic-orange>>
+flexoki-ye:   <<colour comic-yellow>>
+flexoki-gr:   <<colour comic-green>>
+flexoki-cy:   <<colour comic-cyan>>
+flexoki-bl:   <<colour comic-blue>>
+flexoki-pu:   <<colour comic-purple>>
+flexoki-ma:   <<colour comic-pink>>
+flexoki-re-2: <<colour comic-red-2>>
+flexoki-or-2: <<colour comic-orange-2>>
+flexoki-ye-2: <<colour comic-yellow-2>>
+flexoki-gr-2: <<colour comic-green-2>>
+flexoki-cy-2: <<colour comic-cyan-2>>
+flexoki-bl-2: <<colour comic-blue-2>>
+flexoki-pu-2: <<colour comic-purple-2>>
+flexoki-ma-2: <<colour comic-pink-2>>
+
+/* ===== TIDDLYWIKI PALETTE VARIABLES ===== */
+alert-background:               <<colour comic-ui>>
+alert-border:                   <<colour comic-yellow>>
+alert-highlight:                <<colour comic-pink>>
+alert-muted-foreground:         <<colour comic-yellow>>
+background:                     <<colour comic-void>>
+blockquote-bar:                 <<colour comic-purple>>
+button-background:              <<colour comic-panel>>
+button-foreground:              <<colour comic-text>>
+button-border:                  <<colour comic-ui-3>>
+code-background:                <<colour comic-deep>>
+code-border:                    <<colour comic-cyan-2>>
+code-foreground:                <<colour comic-cyan>>
+diff-delete-background:         <<colour comic-red>>
+diff-delete-foreground:         <<colour comic-void>>
+diff-equal-background:          
+diff-equal-foreground:          inherit
+diff-insert-background:         <<colour comic-green>>
+diff-insert-foreground:         <<colour comic-void>>
+diff-invisible-background:      <<colour comic-yellow>>
+diff-invisible-foreground:      <<colour comic-void>>
+dirty-indicator:                <<colour comic-pink>>
+download-background:            <<colour comic-purple>>
+download-foreground:            <<colour comic-text>>
+dragger-background:             <<colour comic-void>>
+dragger-foreground:             <<colour comic-text>>
+dropdown-background:            <<colour comic-deep>>
+dropdown-border:                <<colour comic-ui-3>>
+dropdown-tab-background-selected: <<colour comic-ui>>
+dropdown-tab-background:        <<colour comic-ui-2>>
+dropzone-background:            <<colour comic-purple-2>>
+external-link-background-hover: inherit
+external-link-background-visited: inherit
+external-link-background:       inherit
+external-link-foreground-hover: <<colour comic-yellow>>
+external-link-foreground-visited: <<colour comic-blue>>
+external-link-foreground:       <<colour comic-cyan>>
+footnote-target-background:     <<colour comic-deep>>
+foreground:                     <<colour comic-text>>
+highlight-background:           <<colour comic-ui>>
+highlight-foreground:           <<colour comic-yellow>>
+menubar-background:             <<colour comic-pink>>
+menubar-foreground:             <<colour comic-void>>
+message-background:             <<colour comic-deep>>
+message-border:                 <<colour comic-cyan>>
+message-foreground:             <<colour comic-text>>
+modal-backdrop:                 <<colour comic-void>>
+modal-background:               <<colour comic-deep>>
+modal-border:                   <<colour comic-ui-3>>
+modal-footer-background:        <<colour comic-ui>>
+modal-footer-border:            <<colour comic-ui-3>>
+modal-header-border:            <<colour comic-ui-3>>
+muted-foreground:               <<colour comic-text-2>>
+network-activity-foreground:    <<colour comic-yellow>>
+notification-background:        <<colour comic-panel>>
+notification-border:            <<colour comic-pink>>
+page-background:                <<colour comic-deep>>
+pre-background:                 <<colour comic-deep>>
+pre-border:                     <<colour comic-ui-2>>
+primary:                        <<colour comic-cyan>>
+selection-background:           <<colour comic-yellow>>
+selection-foreground:           <<colour comic-void>>
+select-tag-background:          <<colour comic-panel>>
+select-tag-foreground:          <<colour comic-text>>
+
+/* Sidebar */
+sidebar-button-foreground:      <<colour comic-text>>
+sidebar-controls-foreground-hover: <<colour comic-cyan>>
+sidebar-controls-foreground:    <<colour comic-text-3>>
+sidebar-foreground-shadow:      transparent
+sidebar-foreground:             <<colour comic-text>>
+sidebar-muted-foreground-hover: <<colour comic-text>>
+sidebar-muted-foreground:       <<colour comic-text-3>>
+sidebar-tab-background-selected: <<colour comic-deep>>
+sidebar-tab-background:         <<colour comic-ui>>
+sidebar-tab-border-selected:    <<colour comic-pink>>
+sidebar-tab-border:             <<colour comic-ui-2>>
+sidebar-tab-divider:            <<colour comic-ui-2>>
+sidebar-tab-foreground-selected: <<colour comic-pink>>
+sidebar-tab-foreground:         <<colour comic-text-2>>
+sidebar-tiddler-link-foreground-hover: <<colour comic-cyan>>
+sidebar-tiddler-link-foreground: <<colour comic-text-2>>
+site-title-foreground:          <<colour comic-yellow>>
+
+/* Stability */
+stability-stable:               <<colour comic-green>>
+stability-experimental:         <<colour comic-yellow>>
+stability-deprecated:           <<colour comic-pink>>
+stability-legacy:               <<colour comic-blue>>
+static-alert-foreground:        #8888aa
+
+/* ===== TABS – the fun part ===== */
+tab-background-selected:        <<colour comic-void>>
+tab-background:                 <<colour comic-deep>>
+tab-border-selected:            <<colour comic-pink>>
+tab-border:                     <<colour comic-ui>>
+tab-divider:                    <<colour comic-ui-2>>
+tab-foreground-selected:        <<colour comic-pink>>
+tab-foreground:                 <<colour comic-text-2>>
+
+/* Tables & Tags */
+table-border:                   <<colour comic-ui-2>>
+table-footer-background:        <<colour comic-ui>>
+table-header-background:        <<colour comic-ui>>
+tag-background:                 <<colour comic-pink>>
+tag-foreground:                 <<colour comic-void>>
+
+/* Testcase accents */
+testcase-accent-level-1:        <<colour comic-blue>>
+testcase-accent-level-2:        <<colour comic-yellow>>
+testcase-accent-level-3:        <<colour comic-green>>
+
+/* Tiddlers */
+tiddler-background:             <<colour comic-void>>
+tiddler-border:                 <<colour comic-ui-2>>
+tiddler-controls-foreground-hover: <<colour comic-cyan>>
+tiddler-controls-foreground-selected: <<colour comic-text>>
+tiddler-controls-foreground:    <<colour comic-text-3>>
+tiddler-editor-background:      <<colour comic-deep>>
+tiddler-editor-border-image:    #ffffff
+tiddler-editor-border:          <<colour comic-ui-2>>
+tiddler-editor-fields-even:     <<colour comic-ui-3>>
+tiddler-editor-fields-odd:      <<colour comic-ui-2>>
+tiddler-info-background:        <<colour comic-ui>>
+tiddler-info-border:            <<colour comic-ui>>
+tiddler-info-tab-background:    <<colour comic-ui>>
+tiddler-link-background:        <<colour comic-void>>
+tiddler-link-foreground:        <<colour comic-cyan>>
+tiddler-subtitle-foreground:    <<colour comic-text-3>>
+tiddler-title-foreground:       <<colour comic-yellow>>
+
+/* Toolbar buttons */
+toolbar-new-button:             
+toolbar-options-button:         
+toolbar-save-button:            
+toolbar-info-button:            
+toolbar-edit-button:            
+toolbar-close-button:           
+toolbar-delete-button:          <<colour comic-red>>
+toolbar-cancel-button:          
+toolbar-done-button:            
+
+untagged-background:            <<colour comic-text-3>>
+very-muted-foreground:          <<colour comic-muted>>
+
+/* Wiki list */
+wikilist-background:            <<colour comic-ui>>
+wikilist-item:                  <<colour comic-void>>
+wikilist-info:                  <<colour comic-text>>
+wikilist-title:                 <<colour comic-text-2>>
+wikilist-title-svg:             <<colour comic-text-2>>
+wikilist-url:                   <<colour comic-text-3>>
+wikilist-button-open:           <<colour comic-green>>
+wikilist-button-open-hover:     <<colour comic-green-2>>
+wikilist-button-reveal:         <<colour comic-yellow>>
+wikilist-button-reveal-hover:   <<colour comic-yellow-2>>
+wikilist-button-remove:         <<colour comic-red>>
+wikilist-button-remove-hover:   <<colour comic-red-2>>
+wikilist-toolbar-background:    <<colour comic-ui-2>>
+wikilist-toolbar-foreground:    <<colour comic-muted>>
+wikilist-droplink-dragover:     <<colour comic-purple>>
+wikilist-button-background:     <<colour comic-text-3>>
+wikilist-button-foreground:     <<colour comic-text>>

@@ -1,0 +1,219 @@
+/* ===== NEON HACKER BASE COLORS ===== */
+neon-void: #05050a
+neon-deep: #0a0a14
+neon-panel: #12121f
+neon-ui: #1a1a2e
+neon-ui-2: #22223a
+neon-ui-3: #2a2a45
+
+neon-text: #e0e0ff
+neon-text-2: #a0a0c8
+neon-text-3: #7070a0
+neon-muted: #50507a
+
+neon-cyan: #00f5ff
+neon-cyan-2: #00c8d4
+neon-pink: #ff00aa
+neon-pink-2: #d4008a
+neon-green: #39ff14
+neon-green-2: #2acc10
+neon-purple: #bf00ff
+neon-purple-2: #9a00d4
+neon-yellow: #f0ff00
+neon-yellow-2: #c8d400
+neon-orange: #ff6600
+neon-blue: #00a2ff
+
+/* ===== FLEXOKI-STYLE ALIASES (kept for compatibility) ===== */
+flexoki-red-600: #d4008a
+flexoki-red-400: #ff00aa
+flexoki-orange-600: #ff6600
+flexoki-orange-400: #ff8833
+flexoki-yellow-900: #3a3a00
+flexoki-yellow-600: #c8d400
+flexoki-yellow-400: #f0ff00
+flexoki-yellow-100: #f8ffaa
+flexoki-green-600: #2acc10
+flexoki-green-400: #39ff14
+flexoki-cyan-950: #001a1c
+flexoki-cyan-600: #00c8d4
+flexoki-cyan-400: #00f5ff
+flexoki-cyan-050: #e0ffff
+flexoki-blue-600: #0080cc
+flexoki-blue-400: #00a2ff
+flexoki-purple-600: #9a00d4
+flexoki-purple-400: #bf00ff
+flexoki-magenta-600: #d4008a
+flexoki-magenta-400: #ff00aa
+
+flexoki-bg: <<colour neon-void>>
+flexoki-tx-2: <<colour neon-text-2>>
+flexoki-tx-3: <<colour neon-text-3>>
+flexoki-ui-3: <<colour neon-ui-3>>
+flexoki-ui-2: <<colour neon-ui-2>>
+flexoki-ui: <<colour neon-ui>>
+flexoki-bg-2: <<colour neon-deep>>
+flexoki-tx: <<colour neon-text>>
+flexoki-re: <<colour neon-pink>>
+flexoki-or: <<colour neon-orange>>
+flexoki-ye: <<colour neon-yellow>>
+flexoki-gr: <<colour neon-green>>
+flexoki-cy: <<colour neon-cyan>>
+flexoki-bl: <<colour neon-blue>>
+flexoki-pu: <<colour neon-purple>>
+flexoki-ma: <<colour neon-pink>>
+flexoki-re-2: <<colour neon-pink-2>>
+flexoki-or-2: <<colour neon-orange>>
+flexoki-ye-2: <<colour neon-yellow-2>>
+flexoki-gr-2: <<colour neon-green-2>>
+flexoki-cy-2: <<colour neon-cyan-2>>
+flexoki-bl-2: <<colour neon-blue>>
+flexoki-pu-2: <<colour neon-purple-2>>
+flexoki-ma-2: <<colour neon-pink-2>>
+
+/* ===== TIDDLYWIKI PALETTE VARIABLES ===== */
+alert-background: <<colour neon-ui>>
+alert-border: <<colour neon-yellow>>
+alert-highlight: <<colour neon-pink>>
+alert-muted-foreground: <<colour neon-yellow>>
+background: <<colour neon-void>>
+blockquote-bar: <<colour neon-purple>>
+button-background: <<colour neon-panel>>
+button-foreground: <<colour neon-text>>
+button-border: <<colour neon-ui-3>>
+code-background: <<colour neon-deep>>
+code-border: <<colour neon-cyan-2>>
+code-foreground: <<colour neon-cyan>>
+diff-delete-background: <<colour neon-pink>>
+diff-delete-foreground: <<colour neon-void>>
+diff-equal-background: 
+diff-equal-foreground: inherit
+diff-insert-background: <<colour neon-green>>
+diff-insert-foreground: <<colour neon-void>>
+diff-invisible-background: <<colour neon-yellow>>
+diff-invisible-foreground: <<colour neon-void>>
+dirty-indicator: <<colour neon-pink>>
+download-background: <<colour neon-purple>>
+download-foreground: <<colour neon-text>>
+dragger-background: <<colour neon-void>>
+dragger-foreground: <<colour neon-text>>
+dropdown-background: <<colour neon-deep>>
+dropdown-border: <<colour neon-ui-3>>
+dropdown-tab-background-selected: <<colour neon-ui>>
+dropdown-tab-background: <<colour neon-ui-2>>
+dropzone-background: <<colour neon-purple-2>>
+external-link-background-hover: inherit
+external-link-background-visited: inherit
+external-link-background: inherit
+external-link-foreground-hover: <<colour neon-yellow>>
+external-link-foreground-visited: <<colour neon-blue>>
+external-link-foreground: <<colour neon-cyan>>
+footnote-target-background: <<colour neon-deep>>
+foreground: <<colour neon-text>>
+highlight-background: <<colour neon-ui>>
+highlight-foreground: <<colour neon-yellow>>
+menubar-background: <<colour neon-cyan>>
+menubar-foreground: <<colour neon-void>>
+message-background: <<colour neon-deep>>
+message-border: <<colour neon-cyan>>
+message-foreground: <<colour neon-text>>
+modal-backdrop: <<colour neon-void>>
+modal-background: <<colour neon-deep>>
+modal-border: <<colour neon-ui-3>>
+modal-footer-background: <<colour neon-ui>>
+modal-footer-border: <<colour neon-ui-3>>
+modal-header-border: <<colour neon-ui-3>>
+muted-foreground: <<colour neon-text-2>>
+network-activity-foreground: <<colour neon-yellow>>
+notification-background: <<colour neon-panel>>
+notification-border: <<colour neon-pink>>
+page-background: <<colour neon-deep>>
+pre-background: <<colour neon-deep>>
+pre-border: <<colour neon-ui-2>>
+primary: <<colour neon-cyan>>
+selection-background: <<colour neon-cyan>>
+selection-foreground: <<colour neon-void>>
+select-tag-background: <<colour neon-panel>>
+select-tag-foreground: <<colour neon-text>>
+sidebar-button-foreground: <<colour neon-text>>
+sidebar-controls-foreground-hover: <<colour neon-cyan>>
+sidebar-controls-foreground: <<colour neon-text-3>>
+sidebar-foreground-shadow: transparent
+sidebar-foreground: <<colour neon-text>>
+sidebar-muted-foreground-hover: <<colour neon-text>>
+sidebar-muted-foreground: <<colour neon-text-3>>
+sidebar-tab-background-selected: <<colour neon-deep>>
+sidebar-tab-background: <<colour neon-ui>>
+sidebar-tab-border-selected: <<colour neon-cyan>>
+sidebar-tab-border: <<colour neon-ui-2>>
+sidebar-tab-divider: <<colour neon-ui-2>>
+sidebar-tab-foreground-selected: <<colour neon-cyan>>
+sidebar-tab-foreground: <<colour neon-text-2>>
+sidebar-tiddler-link-foreground-hover: <<colour neon-cyan>>
+sidebar-tiddler-link-foreground: <<colour neon-text-2>>
+site-title-foreground: <<colour neon-yellow>>
+stability-stable: <<colour neon-green>>
+stability-experimental: <<colour neon-yellow>>
+stability-deprecated: <<colour neon-pink>>
+stability-legacy: <<colour neon-blue>>
+static-alert-foreground: #8888aa
+tab-background-selected: <<colour neon-void>>
+tab-background: <<colour neon-deep>>
+tab-border-selected: <<colour neon-cyan>>
+tab-border: <<colour neon-ui>>
+tab-divider: <<colour neon-ui-2>>
+tab-foreground-selected: <<colour neon-cyan>>
+tab-foreground: <<colour neon-text-2>>
+table-border: <<colour neon-ui-2>>
+table-footer-background: <<colour neon-ui>>
+table-header-background: <<colour neon-ui>>
+tag-background: <<colour neon-pink>>
+tag-foreground: <<colour neon-void>>
+testcase-accent-level-1: <<colour neon-blue>>
+testcase-accent-level-2: <<colour neon-yellow>>
+testcase-accent-level-3: <<colour neon-green>>
+tiddler-background: <<colour neon-void>>
+tiddler-border: <<colour neon-ui-2>>
+tiddler-controls-foreground-hover: <<colour neon-cyan>>
+tiddler-controls-foreground-selected: <<colour neon-text>>
+tiddler-controls-foreground: <<colour neon-text-3>>
+tiddler-editor-background: <<colour neon-deep>>
+tiddler-editor-border-image: #ffffff
+tiddler-editor-border: <<colour neon-ui-2>>
+tiddler-editor-fields-even: <<colour neon-ui-3>>
+tiddler-editor-fields-odd: <<colour neon-ui-2>>
+tiddler-info-background: <<colour neon-ui>>
+tiddler-info-border: <<colour neon-ui>>
+tiddler-info-tab-background: <<colour neon-ui>>
+tiddler-link-background: <<colour neon-void>>
+tiddler-link-foreground: <<colour neon-cyan>>
+tiddler-subtitle-foreground: <<colour neon-text-3>>
+tiddler-title-foreground: <<colour neon-yellow>>
+toolbar-new-button: 
+toolbar-options-button: 
+toolbar-save-button: 
+toolbar-info-button: 
+toolbar-edit-button: 
+toolbar-close-button: 
+toolbar-delete-button: <<colour neon-pink>>
+toolbar-cancel-button: 
+toolbar-done-button: 
+untagged-background: <<colour neon-text-3>>
+very-muted-foreground: <<colour neon-muted>>
+wikilist-background: <<colour neon-ui>>
+wikilist-item: <<colour neon-void>>
+wikilist-info: <<colour neon-text>>
+wikilist-title: <<colour neon-text-2>>
+wikilist-title-svg: <<colour neon-text-2>>
+wikilist-url: <<colour neon-text-3>>
+wikilist-button-open: <<colour neon-green>>
+wikilist-button-open-hover: <<colour neon-green-2>>
+wikilist-button-reveal: <<colour neon-yellow>>
+wikilist-button-reveal-hover: <<colour neon-yellow-2>>
+wikilist-button-remove: <<colour neon-pink>>
+wikilist-button-remove-hover: <<colour neon-pink-2>>
+wikilist-toolbar-background: <<colour neon-ui-2>>
+wikilist-toolbar-foreground: <<colour neon-muted>>
+wikilist-droplink-dragover: <<colour neon-purple>>
+wikilist-button-background: <<colour neon-text-3>>
+wikilist-button-foreground: <<colour neon-text>>

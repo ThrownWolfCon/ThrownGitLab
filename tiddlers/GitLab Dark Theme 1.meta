@@ -1,0 +1,22 @@
+color-scheme: dark
+created: 20261101201956899
+description: Gitlab dark color scheme
+flexoki-050: #F2F0E5
+flexoki-100: #E6E4D9
+flexoki-150: #DAD8CE
+flexoki-200: #CECDC3
+flexoki-300: #B7B5AC
+flexoki-500: #8c929d
+flexoki-600: #6c6b66
+flexoki-700: #575653
+flexoki-800: #403E3C
+flexoki-850: #343331
+flexoki-900: #282726
+flexoki-950: #1C1B1A
+flexoki-999: #100F0F
+flexoki-paper: #FFFCF0
+modified: 20261101202054912
+name: GitLab Dark neon
+tags: $:/tags/Palette
+title: GitLab Dark Theme 1
+type: application/x-tiddler-dictionary
