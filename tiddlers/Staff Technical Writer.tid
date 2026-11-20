@@ -1,5 +1,5 @@
 created: 20261119002529238
-modified: 20261119002555514
+modified: 20261119034011016
 tags: Roles
 title: Staff Technical Writer
 type: text/vnd.tiddlywiki
@@ -7,3 +7,11 @@ type: text/vnd.tiddlywiki
 [[Open This|Staff Technical Writer]]
 
 ---
+
+<$linkcatcher actions="<$action-sendmessage $message='tm-modal' $param=<<navigateTo>>/>">
+<div class="modal-links">
+<div class="tc-table-of-contents">
+<<toc-selective-expandable "Staff Technical Writer">>
+</div>
+</div>
+</$linkcatcher>

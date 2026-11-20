@@ -1,5 +1,5 @@
 created: 20261119002837030
-modified: 20261119002948848
+modified: 20261119033537111
 tags: [[Staff Technical Writer]]
 title: STW: What you’ll bring
 type: text/vnd.tiddlywiki
@@ -8,26 +8,10 @@ type: text/vnd.tiddlywiki
 
 ---
 
-* End-to-end expertise in planning, researching, writing, and editing software documentation.
-
-* UX and content design skills, with a track record of refining interface text, labels, and naming conventions to improve the product user experience.
-
-* Experience designing and using AI workflows, including evaluating and refining AI-generated output and guiding quality checks for others.
-
-* Proficiency working in a docs-as-code environment, using the same workflows and tooling as engineering, operations, and product teams.
-
-* Fluency using the Linux shell and command-line Git, coupled with general familiarity with one or more programming languages.
-
-* Excellent grammar, minimalist documentation design skills, and effective information architecture.
-
-* Strong organizational skills, with the ability to triage and prioritize numerous issues and projects across stages and sections.
-
-* A track record of leading cross-team projects and process improvements, building alignment with stakeholders, and driving adoption.
-
-* Data-driven decision making, using analytics and feedback to guide content strategy and demonstrate impact.
-
-* The ability to succeed in a remote, globally distributed environment, including collaborating across countries and time zones, and to model respectful, professional communication.
-
-* Adaptability and readiness to work in a rapidly changing environment.
-
-* Familiarity with DevSecOps tools and open-source software is helpful, not required.
+<$linkcatcher actions="<$action-sendmessage $message='tm-modal' $param=<<navigateTo>>/>">
+<div class="modal-links">
+<div class="tc-table-of-contents">
+<<toc-selective-expandable "STW: What you’ll bring">>
+</div>
+</div>
+</$linkcatcher>

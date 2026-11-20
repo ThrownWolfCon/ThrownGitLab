@@ -1,0 +1,27 @@
+created: 20261120231151262
+modified: 20261120231750527
+tags: Backlog
+title: Rate Limits is a Thing
+type: text/vnd.tiddlywiki
+
+[[Open This|Rate Limits is a Thing]]
+
+---
+
+When you get something like this:
+
+```
+Rate limit exceeded; see https://docs.gitlab.com/user/gitlab_com/rate_limits/ for more details
+```
+
+https://docs.gitlab.com/user/gitlab_com/rate_limits/
+
+```bash
+curl -s -o /dev/null -w "%{http_code}\n" https://gitlab.com/users/sign_in
+```
+
+* `200` means you’re unblocked.
+* `429` means you’re still rate-limited. Wait a bit longer.
+* `403` means GitLab blocked the IP for a longer period. If that’s still showing in an hour, contact GitLab Support with your public IP, which you can get with `curl -s ifconfig.me`.
+
+To avoid this in the future, don’t leave job or pipeline pages open in tabs. They keep checking the server for new log output for as long as they’re open.
